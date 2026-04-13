@@ -1,0 +1,11 @@
+p { color: blue; font-size: 10px; }
+
+li { text-align: center; }
+
+html { font-family: Times New Roman; 
+background-color: aliceblue;}
+
+h1, h2, p {
+  color: rgb(9, 189, 0);
+  font-family: sans-serif;
+}
