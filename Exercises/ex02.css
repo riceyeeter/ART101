@@ -9,3 +9,19 @@ h1, h2, p {
   color: rgb(9, 189, 0);
   font-family: sans-serif;
 }
+
+.highlight_01 {
+background-color: bisque
+}
+
+.highlight_02 {
+  background-color: blue;
+}
+
+p .Nesstingtest_01 {background-color:deeppink}
+
+#Id-test {background-color:coral}
+
+p strong {font-weight: 800;}
+
+#Fish {width: 100px;}
