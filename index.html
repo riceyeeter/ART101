@@ -6,29 +6,57 @@
     <link href="site.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+    <div id="page"
+    >
     <h1>Darwin's Virtual Home </h1>
-    <h2> Welcome in. </h2>
 
-    <p>
-        If you are reading this, I'm probably trying to not procrastinate right now. 
-        I like drawing, playing competitive games, and I want to keep learning new skills.
-    </p>
+<div id="top-section">
 
-    <h2> My Pfp comes from a vocaloid song! </h2>
-    <img src="./Pfp.png">
+    <div id="introduction">
+        <h2> Welcome in. </h2>
 
-    <h2> These are my exercises and environs </h2>
+        <p>
+            If you are reading this, I'm probably trying to not procrastinate right now. 
+            I like drawing, playing competitive games, and I want to keep learning new skills.
+        </p>
 
-    <ol>
+    </div>
+<div>
+    <div class="profile">
+        <h2> My Pfp comes from a vocaloid song! </h2>
+         <img src="./Pfp.png" alt="anime pfp">
+    </div>
+</div>
+</div>
+
+   
+
+
+<div class="navigation">
+    <h2> Environment navigation
+     </h2>
+
+    <ol>    
     Links to my follow-along exercises
-    <li><a href="/exercises/ex01.html">Exercise 1</a></li>
+    <li><a href="./exercises/ex01.html">Exercise 1</a></li>
+    <li><a href="./exercises/ex02.html">Exercise 2</a></li>
+        
+    <!--relative notation:
+    Browser assume current file is a starting position
+    . tells browser that
+    . tells browser to move out of folder-->
     </ol>
 
     </br>
 
     <ol>
     Links to iterations of my creative sandbox
-    <li><a href="/environ/en01.html">Environ 1</a></li>
+    <li><a href="./environ/env01.html">Environ 1</a></li> <!--the / indicates child folder-->
+
     </ol>
+</div>
+
+
+    </div>
 </body>
 </html>

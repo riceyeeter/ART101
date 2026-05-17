@@ -1,0 +1,23 @@
+html {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+
+body {
+background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTBheWQ0NGNoYmF6bGl3NXllcW01aWd3OHpwNjM0dzR3anByYTc3byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KE0otq5Wpr7TM2yRCd/giphy.gif);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size:cover;
+}
+
+p {color: rgb(182, 47, 47); text-shadow: 2px 2px 5px azure,
+        }
+#Headers {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 80px;
+    font-weight: bold;
+
+    background-image: url('https://media1.tenor.com/m/2roX3uxz_68AAAAC/cat-space.gif');
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-size:cover;
+}
+
+h1 {color: azure;text-align: center;border: 10px solid blue; border-radius: 100px;}

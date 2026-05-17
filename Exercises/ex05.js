@@ -1,0 +1,46 @@
+let count = 0;
+let colors = ["Orchid", "Coral", "HotPink", "Plum"]; 
+let colorCounter=0;
+let mood="neutral";
+
+$("#needy-button").click(function () { 
+ 
+count = count + 1;
+colorCount=count-1;
+
+  $("#needy-button").html( "Clicks: " + count + " Color: " + colors[colorCount] );
+   $("body").css("background-color", colors[colorCount]);
+   
+   if (count==4)
+        console.log("it happened");
+    
+
+ if (colors[colorCount] == "HotPink") { 
+        $("#needy-button").after(" notPink ");
+    }
+    else if (colors[colorCount] == "Orchid") {
+            $("#needy-button").after("  hey Orchid ");
+    }
+    else {
+      $("#needy-button").after(" all other colors ");
+    }
+
+
+  if (count<5) {mood="fresh and happy";
+  } // assign value fresh
+    //  and happy to mood}
+  else if(count>=5 && count<10) {mood="keep pushing";
+  }
+    // && both has to be true
+  else if (count>12) {mood="strange";
+  }
+  else {mood="so tired";
+ }
+ console.log// log is a verb function
+ //  (mood); // console log helps track items
+
+
+
+});
+//  
+ 
