@@ -25,11 +25,14 @@ let interactions = {
 
 
 
-$(".clickable").click (function () {
+$(".clickable").click(function () {
 
     let itemId = $(this).attr("id");
 
     let currentItem = interactions[itemId];
+    
+      if (itemId ==="lantern") {
+        askNumber("Wu");}
 
     let message = "";
 
@@ -46,7 +49,24 @@ $(".clickable").click (function () {
 
     console.log(currentItem);
 
-    });
+
+
+});
+
+
+function askNumber(correctAnswer) {
+
+    let userNumber = prompt(
+        "What dialect do people from Ningbo speak?"
+    );
+    if (userNumber === correctAnswer) {
+        $("#Trivia").html("Correct!");
+    } else {
+        $("#Trivia").html("Incorrect :(");
+    }
+
+};
+
 
 //functions
 
